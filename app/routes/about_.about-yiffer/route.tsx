@@ -31,7 +31,6 @@ import v2AdminTags from '~/assets/about-history/v2/admin/admin-tags.png';
 import v2AdminProblems from '~/assets/about-history/v2/admin/admin-problems.png';
 import v2AdsDashboard from '~/assets/about-history/v2/ads-dashboard.png';
 import v2AdsManager from '~/assets/about-history/v2/ads-manager.png';
-import v2Video from '~/assets/about-history/v2/yiffer-v2-modpanel.mp4';
 
 export { YifferErrorBoundary as ErrorBoundary } from '~/utils/error';
 
