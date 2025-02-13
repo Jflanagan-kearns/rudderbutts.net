@@ -1,0 +1,20 @@
+compatibility_date = "2024-11-11"
+compatibility_flags = ["nodejs_compat"]
+
+upload_source_maps = true
+
+pages_build_output_dir = "build/client"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "menagerie_sql"
+database_id = "f762a925-a304-4ca5-a045-dfc842cdf4bb"
+
+[[d1_databases]]
+binding = "DB_PROD"
+database_name = "menagerie_sql"
+database_id = "f762a925-a304-4ca5-a045-dfc842cdf4bb"
+
+[[r2_buckets]]
+binding = "COMICS_BUCKET"
+bucket_name = "commissions"

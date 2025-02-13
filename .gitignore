@@ -1,0 +1,24 @@
+build
+node_modules
+/.cache
+/build
+.env
+.dev.vars
+.wrangler
+/.vscode
+.DS_Store
+/.fleet
+/.idea
+/.yarn
+functions/metafile.js.json
+functions/version.txt
+/.cache
+/functions/\[\[path\]\].js
+/functions/\[\[path\]\].js.map
+functions/metafile.js.json
+functions/metafile.server.json
+functions/version.txt
+functions/metafile.css.json
+/public/build
+# Sentry Config File
+.env.sentry-build-plugin
