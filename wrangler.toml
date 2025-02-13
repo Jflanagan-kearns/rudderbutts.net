@@ -1,6 +1,5 @@
 name = "rudderbutts-net"  # Your project's name
 type = "webpack"  # or "javascript", depending on your project type
-account_id = "9ba48a148cbb0768047dcdf62ff404f8"  # Your Cloudflare account ID
 compatibility_date = "2024-11-11"
 compatibility_flags = ["nodejs_compat"]
 
@@ -15,7 +14,7 @@ database_id = "f762a925-a304-4ca5-a045-dfc842cdf4bb"
 
 [[d1_databases]]
 binding = "DB_PROD"
-database_name = "menagerie_sql"
+database_name = "menagerie_sql_prod"
 database_id = "f762a925-a304-4ca5-a045-dfc842cdf4bb"
 
 [[r2_buckets]]
