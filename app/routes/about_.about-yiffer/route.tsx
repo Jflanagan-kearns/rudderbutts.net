@@ -3,7 +3,35 @@ import ImageCarousel from '~/ui-components/ImageCarousel/ImageCarousel';
 import type { MetaFunction } from '@remix-run/cloudflare';
 import Button from '~/ui-components/Buttons/Button';
 import { useState } from 'react';
-
+import v1Landing1 from '~/assets/about-history/v1/landing-1.jpg';
+import v1Landing2 from '~/assets/about-history/v1/landing-2.jpg';
+import v1Landing3 from '~/assets/about-history/v1/landing-3.jpg';
+import v1Dark from '~/assets/about-history/v1/dark.jpg';
+import v1Comic from '~/assets/about-history/v1/comic.png';
+import v1Artist from '~/assets/about-history/v1/artist.png';
+import v1Rate from '~/assets/about-history/v1/rate.png';
+import v1Login from '~/assets/about-history/v1/login.jpg';
+import v1Suggest from '~/assets/about-history/v1/suggest.jpg';
+import v2MainLight from '~/assets/about-history/v2/main-light.png';
+import v2MainDark from '~/assets/about-history/v2/main-dark.png';
+import v2CardsLight from '~/assets/about-history/v2/cards.png';
+import v2MobileLight from '~/assets/about-history/v2/mobile-light.png';
+import v2Comic from '~/assets/about-history/v2/comic.png';
+import v2Artist from '~/assets/about-history/v2/artist.png';
+import v2Rating from '~/assets/about-history/v2/rating.png';
+import v2Account from '~/assets/about-history/v2/account.png';
+import v2AdminMain from '~/assets/about-history/v2/admin/admin-main.png';
+import v2AdminNewcomic from '~/assets/about-history/v2/admin/admin-newcomic.png';
+import v2AdminComicmanager from '~/assets/about-history/v2/admin/admin-comicmanager.png';
+import v2AdminPagemanager from '~/assets/about-history/v2/admin/admin-pagemanager.png';
+import v2AdminAdd from '~/assets/about-history/v2/admin/admin-add.png';
+import v2AdminPending from '~/assets/about-history/v2/admin/admin-pending.png';
+import v2AdminSuggestions from '~/assets/about-history/v2/admin/admin-suggestions.png';
+import v2AdminTags from '~/assets/about-history/v2/admin/admin-tags.png';
+import v2AdminProblems from '~/assets/about-history/v2/admin/admin-problems.png';
+import v2AdsDashboard from '~/assets/about-history/v2/ads-dashboard.png';
+import v2AdsManager from '~/assets/about-history/v2/ads-manager.png';
+import v2Video from '~/assets/about-history/v2/yiffer-v2-modpanel.mp4';
 
 export { YifferErrorBoundary as ErrorBoundary } from '~/utils/error';
 

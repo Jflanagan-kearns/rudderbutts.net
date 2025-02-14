@@ -204,10 +204,10 @@ export default function Upload() {
       setError(error);
       return;
     }
-    /* if (comicData.files.length < 3 || !comicData.thumbnail) {
+    if (comicData.files.length < 3 || !comicData.thumbnail) {
       setError('You need at least 3 pages and a thumbnail');
       return;
-    } */
+    }
 
     setIsSubmitting(true);
     // First, upload files, split. Do this directly to the old api,
